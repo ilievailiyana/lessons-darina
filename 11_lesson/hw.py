@@ -10,6 +10,11 @@ randomly generate the number of tickets requested, considering that each ticket 
     “FH” if the number is between 4,500,000 and 5,500,000 (both inclusive), “MJ” in all other cases
 show on screen the requested winning tickets
 """
+# Hint
+str1 = "Hello "
+str2 = "world"
+msg = str1 + str2
+print(msg)
 
 """
 Task: write a program for rolling a dice where the computer has already rolled and 
@@ -36,3 +41,26 @@ Write a function sum_odd_numbers to calculate and return the sum of all odd numb
 from 1 to a given number. Write a program that takes a number from the user and uses the sum_odd_numbers
 function and prints the result.
 """
+
+
+# Write a function sum_odd_numbers to calculate and return the sum of all odd numbers from 1 to a given number
+def sum_odd_numbers(final_number):
+    sum = 0
+    # calculate sum of all odd numbers from 1 to final_number
+    # step e i = i + step
+    for i in range(1, final_number + 1, 2):
+        # if i % 2 == 0: # Tova go pravim ako step sme slojili da e 1
+        #     # chetno chislo shtom nqma ostatuk pri delenie na 2
+        #     continue
+        sum = sum + i
+    return sum
+
+# Write a program that takes a number from the user and uses the sum_odd_numbers function and prints the result.
+number = int(input("Please enter a number: "))
+print(f"Result of sum of all odd numbers up to {number}: {sum_odd_numbers(number)}")
+
+# sum_odd_numbers(10)
+# izvikai funkciqta kato:
+# a = 1
+# b = 10
+# final_number = 10
