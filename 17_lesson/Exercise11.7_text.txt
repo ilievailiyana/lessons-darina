@@ -1,0 +1,7 @@
+This is a sample text file for Exercise 11.7.
+
+It contains multiple paragraphs to test paragraph counting.
+
+Let's see how many words, characters, and punctuation marks can be counted!
+
+Enjoy testing!

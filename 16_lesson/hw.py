@@ -20,3 +20,7 @@ Write a program that asks the user for a school subject (out of English, Math or
 Also save the average grade for this subject in a dictionary where the key is the school subject and the value is the average grade.
 Print the average grade for all subjects after the user decides to stop the program by pressing Enter (empty input).
 """
+a = "hello world"
+a = a[::-1]
+print(a)
+# print(b)
